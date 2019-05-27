@@ -50,9 +50,9 @@ spec:
     spec:
       containers:
       - name: app
-        image: pushpendrad/busybox
+        image: pushpendrad/busybox:v1
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         name: k8s
         ports:
         - containerPort: 8080
